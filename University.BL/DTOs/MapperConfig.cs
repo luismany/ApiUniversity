@@ -28,6 +28,9 @@ namespace University.BL.DTOs
                 cfg.CreateMap<Turnos, TurnosDTO>();
                 cfg.CreateMap<TurnosDTO, Turnos>();
 
+                cfg.CreateMap<Carreras, CarrerasDTO>();
+                cfg.CreateMap<CarrerasDTO, Carreras>();
+
 
                 //cfg.CreateMap<Inscripcion, InscripcionDTO>();
                 //cfg.CreateMap<InscripcionDTO, Inscripcion>();

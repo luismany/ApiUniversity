@@ -9,7 +9,11 @@ namespace University_Api
     {
         public static void Register(HttpConfiguration config)
         {
+
+
             // Configuración y servicios de API web
+
+            //config.Formatters.JsonFormatter.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
 
             // Rutas de API web
             config.MapHttpAttributeRoutes();
