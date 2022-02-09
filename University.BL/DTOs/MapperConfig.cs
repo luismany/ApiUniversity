@@ -31,9 +31,8 @@ namespace University.BL.DTOs
                 cfg.CreateMap<Carreras, CarrerasDTO>();
                 cfg.CreateMap<CarrerasDTO, Carreras>();
 
-
-                //cfg.CreateMap<Inscripcion, InscripcionDTO>();
-                //cfg.CreateMap<InscripcionDTO, Inscripcion>();
+                cfg.CreateMap<Matricula, MatriculaDTO>();
+                cfg.CreateMap<MatriculaDTO, Matricula>();
             
             });
 

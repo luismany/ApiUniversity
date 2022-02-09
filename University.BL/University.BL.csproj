@@ -59,6 +59,7 @@
     <Compile Include="DTOs\DocentesDTO.cs" />
     <Compile Include="DTOs\EstudiantesDTO.cs" />
     <Compile Include="DTOs\MapperConfig.cs" />
+    <Compile Include="DTOs\MatriculaDTO.cs" />
     <Compile Include="DTOs\TurnosDTO.cs" />
     <Compile Include="Migrations\202201270534180_25.cs" />
     <Compile Include="Migrations\202201270534180_25.designer.cs">
