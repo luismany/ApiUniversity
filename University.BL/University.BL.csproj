@@ -107,11 +107,13 @@
     <Compile Include="Repositories\IDocentesRepository.cs" />
     <Compile Include="Repositories\IEstudiantesRepository.cs" />
     <Compile Include="Repositories\IGenericRepository.cs" />
+    <Compile Include="Repositories\IMatriculaRepository.cs" />
     <Compile Include="Repositories\Implements\CarreraRepository.cs" />
     <Compile Include="Repositories\Implements\CursosRepository.cs" />
     <Compile Include="Repositories\Implements\DocentesRepository.cs" />
     <Compile Include="Repositories\Implements\EstudiantesRepository.cs" />
     <Compile Include="Repositories\Implements\GenericRepository.cs" />
+    <Compile Include="Repositories\Implements\MatriculaRepository.cs" />
     <Compile Include="Repositories\Implements\TurnosRepository.cs" />
     <Compile Include="Repositories\ITurnosRepository.cs" />
     <Compile Include="Services\ICarreraService.cs" />
@@ -119,11 +121,13 @@
     <Compile Include="Services\IDocentesService.cs" />
     <Compile Include="Services\IEstudiantesService.cs" />
     <Compile Include="Services\IGenericService.cs" />
+    <Compile Include="Services\IMatriculaService.cs" />
     <Compile Include="Services\Implements\CarreraService.cs" />
     <Compile Include="Services\Implements\CursosServices.cs" />
     <Compile Include="Services\Implements\DocentesService.cs" />
     <Compile Include="Services\Implements\EstudiantesService.cs" />
     <Compile Include="Services\Implements\GenericService.cs" />
+    <Compile Include="Services\Implements\MatriculaService.cs" />
     <Compile Include="Services\Implements\TurnosService.cs" />
     <Compile Include="Services\ITurnosService.cs" />
   </ItemGroup>

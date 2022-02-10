@@ -21,7 +21,7 @@ namespace University.BL.DTOs
         public string Cedula { get; set; }
         public string Email { get; set; }
         public int Telefono { get; set; }
-        public DateTime FechaMatricula { get; set; }
+        
 
         public string FullName
         {
