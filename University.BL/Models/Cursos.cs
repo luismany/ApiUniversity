@@ -16,7 +16,9 @@ namespace University.BL.Data.Models
         public string Curso { get; set; }
         public int Credito { get; set; }
         public int CarreraId { get; set; }
+        public int DocenteId { get; set; }
 
         public virtual Carreras Carrera { get; set; }
+        public virtual Docentes Docente { get; set; }
     }
 }

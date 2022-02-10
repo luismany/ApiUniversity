@@ -89,6 +89,10 @@
     <Compile Include="Migrations\202201310216223_midificaciones-varias.designer.cs">
       <DependentUpon>202201310216223_midificaciones-varias.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202102105508_relacionando-modelo-cursos-docentes.cs" />
+    <Compile Include="Migrations\202202102105508_relacionando-modelo-cursos-docentes.designer.cs">
+      <DependentUpon>202202102105508_relacionando-modelo-cursos-docentes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Carreras.cs" />
     <Compile Include="Models\Cursos.cs" />
     <Compile Include="Models\Docentes.cs" />
@@ -160,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202201310216223_midificaciones-varias.resx">
       <DependentUpon>202201310216223_midificaciones-varias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202102105508_relacionando-modelo-cursos-docentes.resx">
+      <DependentUpon>202202102105508_relacionando-modelo-cursos-docentes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

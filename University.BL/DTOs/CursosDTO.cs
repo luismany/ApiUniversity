@@ -18,7 +18,9 @@ namespace University.BL.DTOs
         [Required(ErrorMessage ="El campo Credito es requerido")]
         public int Credito { get; set; }
         public int CarreraId { get; set; }
+        public int DocenteId { get; set; }
 
         public virtual CarrerasDTO Carrera { get; set; }
+        public virtual DocentesDTO Docente { get; set; }
     }
 }
