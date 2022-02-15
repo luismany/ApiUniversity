@@ -25,7 +25,7 @@ namespace University_Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IHttpActionResult> GetAll()
+        public async Task<IHttpActionResult> GetAll(/*DateTime fechaI, DateTime fechaF*/)
         {
             var listaMatriculas = await matriculaService.GetAll();
 
@@ -33,6 +33,11 @@ namespace University_Api.Controllers
 
            return Ok(listaMatriculasDTO);
 
+            //var matxFecha = from matri in listaMatriculasDTO
+            //                 where matri.FechaInscripcion>= fechaI && matri.FechaInscripcion<=fechaF
+            //                 select matri;
+
+            //return Ok(matxFecha);
         }
         [HttpGet]
         public async Task<IHttpActionResult> GetById(int id)

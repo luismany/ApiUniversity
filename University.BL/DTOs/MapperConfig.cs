@@ -33,6 +33,12 @@ namespace University.BL.DTOs
 
                 cfg.CreateMap<Matricula, MatriculaDTO>();
                 cfg.CreateMap<MatriculaDTO, Matricula>();
+
+                cfg.CreateMap<RegularCuatrimestre, RegularCuatrimestreDTO>();
+                cfg.CreateMap<RegularCuatrimestreDTO, RegularCuatrimestre>();
+
+                cfg.CreateMap<EncuentrosCuatrimestre, EncuentrosCuatrimestreDTO>();
+                cfg.CreateMap<EncuentrosCuatrimestreDTO, EncuentrosCuatrimestre>();
             
             });
 

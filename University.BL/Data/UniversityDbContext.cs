@@ -22,7 +22,8 @@ namespace University.BL.Data
         public DbSet<Carreras> Carreras { get; set; }
         public DbSet<Turnos> Turnos { get; set; }
         public DbSet<Matricula> Matriculas { get; set; }
-        
+        public DbSet<RegularCuatrimestre> RegularCuatrimestre { get; set; }
+        public DbSet<EncuentrosCuatrimestre> EncuentrosCuatrimestre { get; set; }
 
 
         public static UniversityDbContext Create()

@@ -57,9 +57,11 @@
     <Compile Include="DTOs\CarrerasDTO.cs" />
     <Compile Include="DTOs\CursosDTO.cs" />
     <Compile Include="DTOs\DocentesDTO.cs" />
+    <Compile Include="DTOs\EncuentrosCuatrimestreDTO.cs" />
     <Compile Include="DTOs\EstudiantesDTO.cs" />
     <Compile Include="DTOs\MapperConfig.cs" />
     <Compile Include="DTOs\MatriculaDTO.cs" />
+    <Compile Include="DTOs\RegularCuatrimestreDTO.cs" />
     <Compile Include="DTOs\TurnosDTO.cs" />
     <Compile Include="Migrations\202201270534180_25.cs" />
     <Compile Include="Migrations\202201270534180_25.designer.cs">
@@ -93,9 +95,14 @@
     <Compile Include="Migrations\202202102105508_relacionando-modelo-cursos-docentes.designer.cs">
       <DependentUpon>202202102105508_relacionando-modelo-cursos-docentes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202142234448_ de Nuevok.cs" />
+    <Compile Include="Migrations\202202142234448_ de Nuevok.designer.cs">
+      <DependentUpon>202202142234448_ de Nuevok.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Carreras.cs" />
     <Compile Include="Models\Cursos.cs" />
     <Compile Include="Models\Docentes.cs" />
+    <Compile Include="Models\EncuentrosCuatrimestre.cs" />
     <Compile Include="Models\Estudiantes.cs" />
     <Compile Include="Data\UniversityDbContext.cs" />
     <Compile Include="Migrations\202201200021041_Inicio.cs" />
@@ -103,7 +110,9 @@
       <DependentUpon>202201200021041_Inicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Grupos.cs" />
     <Compile Include="Models\Matricula.cs" />
+    <Compile Include="Models\RegularCuatrimestre.cs" />
     <Compile Include="Models\Turnos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ICarreraRepository.cs" />
@@ -135,7 +144,9 @@
     <Compile Include="Services\Implements\TurnosService.cs" />
     <Compile Include="Services\ITurnosService.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Migrations\202202141746357_14\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
@@ -167,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202202102105508_relacionando-modelo-cursos-docentes.resx">
       <DependentUpon>202202102105508_relacionando-modelo-cursos-docentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202142234448_ de Nuevok.resx">
+      <DependentUpon>202202142234448_ de Nuevok.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
